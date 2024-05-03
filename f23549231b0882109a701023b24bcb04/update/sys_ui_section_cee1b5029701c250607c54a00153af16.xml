@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Site General" section_id="cee1b5029701c250607c54a00153af16" sys_domain="global" table="x_htaht_projects_projects_work_order" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_many_manholes_have_been_installed_on_this_site</element>
+            <position>0</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>ed366bbb478d0250f96d777df26d435d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm</element>
+            <position>1</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e1366bbb478d0250f96d777df26d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>how_much_are_the_ducts_sticking_out</element>
+            <position>2</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e5366bbb478d0250f96d777df26d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_type_of_ducting_has_been_used</element>
+            <position>3</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e9366bbb478d0250f96d777df26d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_type_of_ducting</element>
+            <position>4</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>ed366bbb478d0250f96d777df26d435e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>have_the_site_signs_been_installed_as_per_the_design_drawings</element>
+            <position>5</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e1366bbb478d0250f96d777df26d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_quality_of_the_finished_civil_concrete_works</element>
+            <position>6</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e5366bbb478d0250f96d777df26d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_is_the_finish_of_the_concrete_labs_and_tower_stubs</element>
+            <position>7</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e9366bbb478d0250f96d777df26d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_type_of_finish</element>
+            <position>8</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>ed366bbb478d0250f96d777df26d435f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stone_chip_installed_within_site</element>
+            <position>9</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e1366bbb478d0250f96d777df26d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>what_type_of_material_has_been_used_under_the_stone_chip</element>
+            <position>10</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e5366bbb478d0250f96d777df26d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_type_of_material</element>
+            <position>11</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>e9366bbb478d0250f96d777df26d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_notes_regarding_the_general_site</element>
+            <position>12</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:53:30</sys_created_on>
+            <sys_id>ed366bbb478d0250f96d777df26d4360</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_projects_work_order" sys_domain="global" view="Default view">cee1b5029701c250607c54a00153af16</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:53:30</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Site General</caption>
+            <header>false</header>
+            <name>x_htaht_projects_projects_work_order</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-21 10:55:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cee1b5029701c250607c54a00153af16</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_htaht_projects_projects_work_order</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_ui_section_cee1b5029701c250607c54a00153af16</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-21 10:55:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

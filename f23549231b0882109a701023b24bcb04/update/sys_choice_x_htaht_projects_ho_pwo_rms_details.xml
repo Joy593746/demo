@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="rms_details" table="x_htaht_projects_ho_pwo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>rms_details</element>
+            <name>x_htaht_projects_ho_pwo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 12:18:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2f6ef4cc47d14250f96d777df26d432b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>rms_details</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_choice_x_htaht_projects_ho_pwo_rms_details</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 12:18:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rms_details</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_htaht_projects_ho_pwo</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 12:18:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a76ef4cc47d14250f96d777df26d432b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 12:18:56</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>rms_details</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_htaht_projects_ho_pwo</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 12:18:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>236e38cc47d14250f96d777df26d43d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 12:18:56</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

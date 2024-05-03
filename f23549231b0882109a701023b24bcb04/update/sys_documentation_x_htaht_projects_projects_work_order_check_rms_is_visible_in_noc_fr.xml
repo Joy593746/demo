@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="check_rms_is_visible_in_noc" label="Vérifiez que RMS est visible dans NOC" language="fr" table="x_htaht_projects_projects_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>check_rms_is_visible_in_noc</element>
+            <help/>
+            <hint/>
+            <label>Vérifiez que RMS est visible dans NOC</label>
+            <language>fr</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <plural>Vérifiez que RMS est visible dans NOC</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>joydeep.adhikary@quintica.com</sys_created_by>
+            <sys_created_on>2024-04-30 12:09:35</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>9652004f1bb982509a701023b24bcbff</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Vérifiez que RMS est visible dans NOC</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_check_rms_is_visible_in_noc_fr</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-05-01 05:22:06</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

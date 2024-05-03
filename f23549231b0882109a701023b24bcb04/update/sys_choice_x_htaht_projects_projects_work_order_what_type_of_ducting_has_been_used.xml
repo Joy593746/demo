@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="what_type_of_ducting_has_been_used" table="x_htaht_projects_projects_work_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>what_type_of_ducting_has_been_used</element>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:49:00</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7b25abf7478d0250f96d777df26d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>what_type_of_ducting_has_been_used</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_choice_x_htaht_projects_projects_work_order_what_type_of_ducting_has_been_used</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:49:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>what_type_of_ducting_has_been_used</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Water pipe</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f325abf7478d0250f96d777df26d4397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:49:00</sys_updated_on>
+            <value>Water pipe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>what_type_of_ducting_has_been_used</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HDPE pipe</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7b25abf7478d0250f96d777df26d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:49:00</sys_updated_on>
+            <value>HDPE pipe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>what_type_of_ducting_has_been_used</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 05:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b325a73b478d0250f96d777df26d4363</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 05:49:00</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

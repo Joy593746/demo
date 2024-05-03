@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="record_the_capacity_of_the_main_incoming_breaker" label="Record the capacity of the main incoming breaker" language="en" table="x_htaht_projects_projects_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>record_the_capacity_of_the_main_incoming_breaker</element>
+            <help/>
+            <hint/>
+            <label>Record the capacity of the main incoming breaker</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <plural>Record the capacity of the main incoming breakers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:59:19</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>bbc957bb474d0250f96d777df26d439b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Record the capacity of the main incoming breaker</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_record_the_capacity_of_the_main_incoming_breaker_en</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:59:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

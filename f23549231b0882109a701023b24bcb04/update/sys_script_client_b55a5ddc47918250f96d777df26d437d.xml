@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>project_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>HTA - Set Fields Based on Project</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    var projectType = g_form.getValue('project_type');
+    var state = g_form.getValue('state');
+
+    // Define excluded fields based on project type
+    var excludedFields = ['work_notes', 'project_type', 'additional_notes_regarding_alarms', 'additional_notes_regarding_backup_batteries', 'additional_notes_regarding_fire_safety', 'additional_notes_regarding_fire_site_earthing_and_protection', 'additional_notes_regarding_generator', 'additional_notes_regarding_hybrid_solar', 'additional_notes_regarding_rectifier_system', 'additional_notes_regarding_rms', 'additional_notes_regarding_security', 'additional_notes_regarding_site_access', 'additional_notes_regarding_tenant_info_and_labelling', 'additional_notes_regarding_the_general_site', 'additional_notes_regarding_the_grid_connection', 'additional_notes_regarding_the_tower_structure', 'short_description', 'description', 'assignment_group', 'assigned_to', 'project_manager', 'u_site_access_request'];
+
+    var nonMandatoryFields = ['u_2by4_truck_for_fuel_or_equipment', 'u_4by4_pickup', 'u_4by4_truck_for_fuel_or_equipment', 'ac_mains_box', 'access_road_to_site_condition', 'access_road_to_site_type', 'advise_status_of_dg_and_dg_installation_and_wiring', 'all_tower_legs_rooftop_poles_structures', 'amount_of_fuel_added', 'are_all_the_navigational_lights_functional', 'are_the_security_lights_functional', 'are_there_fuses_installed_in_the_grid_line', 'check_bus_voltage_datapoint_visible_on_rms_device', 'check_dg_battery_voltage_datapoint_visible_on_rms_device', 'dse_displaying_correct_fuel_level', 'engine_model_no', 'engine_serial_no', 'fence_all_4_corner_posts', 'fence_perimeter_length_m', 'fence_perimeter_width_m', 'fence_physical_condition_rust_quality_of_installation_verticality', 'fence_structural_security_condition_accessibility', 'gate_lock_serial_number', 'generator', 'generator_controller_make', 'generator_controller_serial_number', 'generator_lock_serial_number', 'generator_manufacturer', 'genset_serial_no', 'has_a_grid_meter_been_installed', 'has_an_aps_or_lcu_been_installed', 'has_dg_been_earthed_to_main_site_earth', 'have_the_site_signs_been_installed_as_per_the_design_drawings', 'highlight_any_special_conditions_or_restrictions_for_this_site_e_g_access_betwee', 'how_many_navigational_lights_are_installed_at_the_top_of_the_structure', 'how_many_navigational_lights_are_installed_near_the_middle_of_the_structure', 'how_many_platforms_are_installed_on_the_structure', 'how_many_security_lights_have_been_installed_on_the_site', 'is_there_a_certification_plate_for_the_fall_arrest_system', 'if_tower_number_of_legs_or_number_of_rooftop_poles', 'other_battery_manufacturer', 'other_generator_controller_make', 'other_generator_controller_model', 'other_generator_manufacturer', 'other_generator_rating_kva', 'other_meter_location', 'other_rectifier_manufacturer', 'other_record_rectifier_model', 'other_rms_make', 'other_structure_material', 'other_tower_structure_type', 'other_type_of_ducting', 'other_type_of_finish', 'other_type_of_hybrid', 'other_type_of_material', 'other_type_of_security_fence', 'phase_1_voltage_v', 'phase_2_voltage_v', 'phase_3_voltage_v', 'razor_coil_flat_wrap_installed_on_top_of_wall_fence', 'record_current_fuel_level_at_time_of_handover_litres', 'record_make_of_fire_extinguisher_s', 'record_meter_location_on_pole_in_mains_etc', 'record_meter_number', 'record_next_service_date', 'record_rectifier_model', 'record_rectifier_serial_no', 'record_status_of_aps_or_lcu', 'record_the_capacity_of_the_main_incoming_breaker', 'record_the_generator_run_hours', 'record_the_quantity_of_fire_extinguishers_installed', 'record_the_size_capacity_of_the_fire_extinguisher_s_kg', 'record_the_type_of_fire_extinguisher', 'rectifier_cabinet', 'rectifier_lock_serial_number', 'rms_connected_to_deepsea_and_values_visible_in_noc', 'rms_sim_card_mno', 'specify_rms_configuration_version', 'specify_rms_firmware_version', 'standard_car_sedan_non_4by4_vehicle', 'structure_material', 'surge_protection_status', 'tower_structure_type', 'tower_ladder_and_tower_earthing', 'was_a_transformer_installed_for_the_grid_connection', 'what_is_the_estimated_capacity_of_the_fuel_tank_litres', 'what_is_the_make_of_the_fall_arrest_system_installed', 'what_is_the_quality_of_the_installation_of_this_razor_coil_flat_wrap', 'what_type_of_material_has_been_used_under_the_stone_chip', 'what_type_of_security_fence_wall_or_other_has_been_installed_on_this_site', 'where_are_the_keys_for_the_lock_s'];
+
+    var hiddenFields = ['u_2by4_truck_for_fuel_or_equipment', 'u_4by4_pickup', 'u_4by4_truck_for_fuel_or_equipment', 'ac_mains_box', 'access_road_to_site_condition', 'access_road_to_site_type', 'advise_status_of_dg_and_dg_installation_and_wiring', 'all_tower_legs_rooftop_poles_structures', 'amount_of_fuel_added', 'are_all_the_navigational_lights_functional', 'are_the_security_lights_functional', 'are_there_fuses_installed_in_the_grid_line', 'check_bus_voltage_datapoint_visible_on_rms_device', 'check_dg_battery_voltage_datapoint_visible_on_rms_device', 'dse_displaying_correct_fuel_level', 'engine_model_no', 'engine_serial_no', 'fence_all_4_corner_posts', 'fence_perimeter_length_m', 'fence_perimeter_width_m', 'fence_physical_condition_rust_quality_of_installation_verticality', 'fence_structural_security_condition_accessibility', 'gate_lock_serial_number', 'generator', 'generator_controller_make', 'generator_controller_serial_number', 'generator_lock_serial_number', 'generator_manufacturer', 'genset_serial_no', 'has_a_grid_meter_been_installed', 'has_an_aps_or_lcu_been_installed', 'has_dg_been_earthed_to_main_site_earth', 'have_the_site_signs_been_installed_as_per_the_design_drawings', 'highlight_any_special_conditions_or_restrictions_for_this_site_e_g_access_betwee', 'how_many_navigational_lights_are_installed_at_the_top_of_the_structure', 'how_many_navigational_lights_are_installed_near_the_middle_of_the_structure', 'how_many_platforms_are_installed_on_the_structure', 'how_many_security_lights_have_been_installed_on_the_site', 'is_there_a_certification_plate_for_the_fall_arrest_system', 'if_tower_number_of_legs_or_number_of_rooftop_poles', 'other_battery_manufacturer', 'other_generator_controller_make', 'other_generator_controller_model', 'other_generator_manufacturer', 'other_generator_rating_kva', 'other_meter_location', 'other_rectifier_manufacturer', 'other_record_rectifier_model', 'other_rms_make', 'other_structure_material', 'other_tower_structure_type', 'other_type_of_ducting', 'other_type_of_finish', 'other_type_of_hybrid', 'other_type_of_material', 'other_type_of_security_fence', 'phase_1_voltage_v', 'phase_2_voltage_v', 'phase_3_voltage_v', 'razor_coil_flat_wrap_installed_on_top_of_wall_fence', 'record_current_fuel_level_at_time_of_handover_litres', 'record_make_of_fire_extinguisher_s', 'record_meter_location_on_pole_in_mains_etc', 'record_meter_number', 'record_next_service_date', 'record_rectifier_model', 'record_rectifier_serial_no', 'record_status_of_aps_or_lcu', 'record_the_capacity_of_the_main_incoming_breaker', 'record_the_generator_run_hours', 'record_the_quantity_of_fire_extinguishers_installed', 'record_the_size_capacity_of_the_fire_extinguisher_s_kg', 'record_the_type_of_fire_extinguisher', 'rectifier_cabinet', 'rectifier_lock_serial_number', 'rms_connected_to_deepsea_and_values_visible_in_noc', 'rms_sim_card_mno', 'specify_rms_configuration_version', 'specify_rms_firmware_version', 'standard_car_sedan_non_4by4_vehicle', 'structure_material', 'surge_protection_status', 'tower_structure_type', 'tower_ladder_and_tower_earthing', 'was_a_transformer_installed_for_the_grid_connection', 'what_is_the_estimated_capacity_of_the_fuel_tank_litres', 'what_is_the_make_of_the_fall_arrest_system_installed', 'what_is_the_quality_of_the_installation_of_this_razor_coil_flat_wrap', 'what_type_of_material_has_been_used_under_the_stone_chip', 'what_type_of_security_fence_wall_or_other_has_been_installed_on_this_site', 'where_are_the_keys_for_the_lock_s'];
+
+    var excludedFieldsB2S = ['work_notes', 'project_type', 'additional_notes_regarding_alarms', 'additional_notes_regarding_backup_batteries', 'additional_notes_regarding_fire_safety', 'additional_notes_regarding_fire_site_earthing_and_protection', 'additional_notes_regarding_generator', 'additional_notes_regarding_hybrid_solar', 'additional_notes_regarding_rectifier_system', 'additional_notes_regarding_rms', 'additional_notes_regarding_security', 'additional_notes_regarding_site_access', 'additional_notes_regarding_tenant_info_and_labelling', 'additional_notes_regarding_the_general_site', 'additional_notes_regarding_the_grid_connection', 'additional_notes_regarding_the_tower_structure', 'short_description', 'description', 'assignment_group', 'assigned_to', 'project_manager', 'u_site_access_request', 'other_battery_manufacturer', 'other_generator_controller_make', 'other_generator_controller_model', 'other_generator_manufacturer', 'other_generator_rating_kva', 'other_meter_location', 'other_rectifier_manufacturer', 'other_record_rectifier_model', 'other_rms_make', 'other_structure_material', 'other_tower_structure_type', 'other_type_of_ducting', 'other_type_of_finish', 'other_type_of_hybrid', 'other_type_of_material', 'other_type_of_security_fence'];
+
+    var hiddenB2SFields = ['other_battery_manufacturer', 'other_generator_controller_make', 'other_generator_controller_model', 'other_generator_manufacturer', 'other_generator_rating_kva', 'other_meter_location', 'other_rectifier_manufacturer', 'other_record_rectifier_model', 'other_rms_make', 'other_structure_material', 'other_tower_structure_type', 'other_type_of_ducting', 'other_type_of_finish', 'other_type_of_hybrid', 'other_type_of_material', 'other_type_of_security_fence'];
+
+    
+    if ((state == 1 || state == -1 || state == -3 || state == 3 || state == 4 || state == 5) && (projectType == 'Colocation' || projectType == 'Active Upgrade')){
+        // Hide the specified fields
+        for (var j = 0; j < hiddenFields.length; j++) {
+            var hiddenFieldName = hiddenFields[j];
+            g_form.setMandatory(hiddenFieldName, false);
+            g_form.setDisplay(hiddenFieldName, false);
+        }
+    }
+	else if (state == 2 || state == -2) {
+        if (projectType == 'Colocation' || projectType == 'Active Upgrade') {
+            // Set all editable fields to mandatory except for excluded fields
+            var fields = g_form.getEditableFields();
+            for (var i = 0; i < fields.length; i++) {
+                var fieldName = fields[i];
+                if (excludedFields.indexOf(fieldName) === -1) { // Check if the field is not in the excluded list
+                    g_form.setMandatory(fieldName, true);
+                }
+            }
+
+            // Hide the specified fields
+            for (var j = 0; j < hiddenFields.length; j++) {
+                var hiddenFieldName = hiddenFields[j];
+                g_form.setMandatory(hiddenFieldName, false);
+                g_form.setDisplay(hiddenFieldName, false);
+            }
+        }
+
+        if (projectType == 'B2S') {
+            // Unhide the specified fields
+            for (var l = 0; l < hiddenFields.length; l++) {
+                var unhiddenFieldName = hiddenFields[l];
+                //g_form.setMandatory(unhiddenFieldName, false);
+                g_form.setDisplay(unhiddenFieldName, true);
+            }
+
+            for (var m = 0; m < hiddenB2SFields.length; m++) {
+                var hiddentB2SFieldName = hiddenB2SFields[m];
+                g_form.setDisplay(hiddentB2SFieldName, false);
+            }
+
+            // Set all editable fields to non mandatory except for excluded fields
+            var fieldsB2S = g_form.getEditableFields();
+            for (var k = 0; k < fieldsB2S.length; k++) {
+                var fieldNameB2S = fieldsB2S[k];
+                if (excludedFieldsB2S.indexOf(fieldNameB2S) === -1) { // Check if the field is not in the excluded list
+                    g_form.setMandatory(fieldNameB2S, true);
+                }
+            }
+        }
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>jonosburn</sys_created_by>
+        <sys_created_on>2024-03-28 08:59:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b55a5ddc47918250f96d777df26d437d</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>HTA - Set Fields Based on Project</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_script_client_b55a5ddc47918250f96d777df26d437d</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-04-30 09:48:55</sys_updated_on>
+        <table>x_htaht_projects_nw_pwo</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

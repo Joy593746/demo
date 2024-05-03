@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm" label="What is the internal diameter of the ducting used on this site (mm)?" language="en" table="x_htaht_projects_projects_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm</element>
+            <help/>
+            <hint/>
+            <label>What is the internal diameter of the ducting used on this site (mm)?</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <plural>What is the internal diameter of the ducting used on this site (mm)?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-26 07:13:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>ffeeeaaf470dce10f96d777df26d4384</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>What is the internal diameter of the ducting used on this site (mm)?</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm_en</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-26 07:13:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="dc9a633347cd0250f96d777df26d4356" sys_domain="global" table="x_htaht_projects_ho_pwo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9c9a633347cd0250f96d777df26d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">989a633347cd0250f96d777df26d439f</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>209aa33347cd0250f96d777df26d4303</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Generator" display_value="Generator" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">649a633347cd0250f96d777df26d43f9</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc9a633347cd0250f96d777df26d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Rectifier" display_value="Rectifier" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">909a633347cd0250f96d777df26d4398</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>549a633347cd0250f96d777df26d43c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="RMS" display_value="RMS" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">d89a633347cd0250f96d777df26d43c2</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac9a633347cd0250f96d777df26d43f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Tenant Info" display_value="Tenant Info" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">6c9a633347cd0250f96d777df26d43ef</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>649a633347cd0250f96d777df26d43dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Backup Batteries" display_value="Backup Batteries" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">609a633347cd0250f96d777df26d43d7</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>949a633347cd0250f96d777df26d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="OSS Alarming" display_value="OSS Alarming" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">1c9a633347cd0250f96d777df26d43c8</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>209aa33347cd0250f96d777df26d430b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Site Earthing" display_value="Site Earthing" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e49aa33347cd0250f96d777df26d4303</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>8</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>149a633347cd0250f96d777df26d43c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Fire Safety" display_value="Fire Safety" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">589a633347cd0250f96d777df26d43bd</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>9</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e49a633347cd0250f96d777df26d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>10</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>509a633347cd0250f96d777df26d43b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Fence / Security" display_value="Fence / Security" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">549a633347cd0250f96d777df26d43a7</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>11</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a89a633347cd0250f96d777df26d43d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Tower / Structure" display_value="Tower / Structure" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">5c9a633347cd0250f96d777df26d43ce</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>12</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>249a633347cd0250f96d777df26d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Grid Power Supply" display_value="Grid Power Supply" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">2c9a633347cd0250f96d777df26d43dd</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>13</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>909a633347cd0250f96d777df26d43bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Hybrid / Solar Site" display_value="Hybrid / Solar Site" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">5c9a633347cd0250f96d777df26d43b7</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>14</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>949a633347cd0250f96d777df26d43b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Site General" display_value="Site General" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">189a633347cd0250f96d777df26d43b0</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>15</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a49a633347cd0250f96d777df26d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_htaht_projects_ho_pwo" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">dc9a633347cd0250f96d777df26d4356</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">ac9a633347cd0250f96d777df26d43eb</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_htaht_projects_ho_pwo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:31</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dc9a633347cd0250f96d777df26d4356</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_htaht_projects_ho_pwo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_ui_form_sections_dc9a633347cd0250f96d777df26d4356</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

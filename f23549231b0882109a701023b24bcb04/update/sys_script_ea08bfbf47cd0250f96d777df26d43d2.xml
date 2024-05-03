@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_htaht_projects_ho_pwo</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_htaht_projects_ho_pwo">nwpwo_referenceISNOTEMPTY^EQ<item endquery="false" field="nwpwo_reference" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Copy NW PWO to HO PWO</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+var nwpwo = new GlideRecord('x_htaht_projects_nw_pwo');
+nwpwo.get(current.nwpwo_reference);
+if(nwpwo){
+
+//Generator section//
+
+current.generator_controller_make = nwpwo.generator_controller_make;
+current.generator_controller_model = nwpwo.generator_controller_model;
+current.generator_controller_serial_number = nwpwo.generator_controller_serial_number;
+current.generator_manufacturer = nwpwo.generator_manufacturer;
+current.engine_model_no = nwpwo.engine_model_no;
+current.engine_serial_no = nwpwo.engine_serial_no;
+current.genset_serial_no = nwpwo.genset_serial_no;
+current.record_the_generator_run_hours = nwpwo.record_the_generator_run_hours;
+current.generator_rating_kva = nwpwo.generator_rating_kva;
+current.date_of_fuel_delivery = nwpwo.date_of_fuel_delivery;
+current.amount_of_fuel_added = nwpwo.amount_of_fuel_added;
+current.what_is_the_estimated_capacity_of_the_fuel_tank_litres = nwpwo.what_is_the_estimated_capacity_of_the_fuel_tank_litres;
+current.record_current_fuel_level_at_time_of_handover_litres = nwpwo.record_current_fuel_level_at_time_of_handover_litres;
+current.dse_displaying_correct_fuel_level = nwpwo.dse_displaying_correct_fuel_level;
+current.rms_connected_to_deepsea_and_values_visible_in_noc = nwpwo.rms_connected_to_deepsea_and_values_visible_in_noc;
+current.has_dg_been_earthed_to_main_site_earth = nwpwo.has_dg_been_earthed_to_main_site_earth;
+current.advise_status_of_dg_and_dg_installation_and_wiring = nwpwo.advise_status_of_dg_and_dg_installation_and_wiring;
+current.additional_notes_regarding_generator = nwpwo.additional_notes_regarding_generator;
+
+
+
+//Rectifier section//
+record_rectifier_model = nwpwo.record_rectifier_model;
+record_rectifier_serial_no = nwpwo.record_rectifier_serial_no;
+record_number_of_modules_working = nwpwo.record_number_of_modules_working;
+record_rectifier_systems_voltage_dc_v = nwpwo.record_rectifier_systems_voltage_dc_v;
+specify_rectifier_firmware_version = nwpwo.specify_rectifier_firmware_version;
+specify_rectifier_configuration_version = nwpwo.specify_rectifier_configuration_version;
+additional_notes_regarding_rectifier_system = nwpwo.additional_notes_regarding_rectifier_system;
+
+//RMS//
+
+record_rms_make = nwpwo.record_rms_make;
+specify_rms_firmware_version = nwpwo.specify_rms_firmware_version;
+specify_rms_configuration_version = nwpwo.specify_rms_configuration_version;
+check_bus_voltage_datapoint_visible_on_rms_device = nwpwo.check_bus_voltage_datapoint_visible_on_rms_device;
+check_dg_battery_voltage_datapoint_visible_on_rms_device = nwpwo.check_dg_battery_voltage_datapoint_visible_on_rms_device;
+rms_sim_card_mno = nwpwo.rms_sim_card_mno;
+check_rms_is_visible_in_noc = nwpwo.check_rms_is_visible_in_noc;
+additional_notes_regarding_rms = nwpwo.additional_notes_regarding_rms;
+
+//Tenant Info//
+record_number_of_tenants_on_site = nwpwo.record_number_of_tenants_on_site;
+record_tenant_names = nwpwo.record_tenant_names;
+tenant_monitoring_kit_properly_installed = nwpwo.tenant_monitoring_kit_properly_installed;
+tenant_currents_visible_in_rectifier_controller = nwpwo.tenant_currents_visible_in_rectifier_controller;
+tenant_distribution_box_labelled = nwpwo.tenant_distribution_box_labelled;
+tenant_load_cables_labelled_at_rectifier_cabinet = nwpwo.tenant_load_cables_labelled_at_rectifier_cabinet;
+tenant_load_connection_point_labelled_at_rectifier_cabinet = nwpwo.tenant_load_connection_point_labelled_at_rectifier_cabinet;
+tenant_on_site_position_1 = nwpwo.tenant_on_site_position_1;
+tenant_on_site_position_2 = nwpwo.tenant_on_site_position_2;
+tenant_on_site_position_3 = nwpwo.tenant_on_site_position_3;
+tenant_on_site_position_4 = nwpwo.tenant_on_site_position_4;
+tenant_on_site_position_5 = nwpwo.tenant_on_site_position_5;
+tenant_on_site_position_6 = nwpwo.tenant_on_site_position_6;
+tenant_on_site_position_7 = nwpwo.tenant_on_site_position_7;
+tenant_on_site_position_8 = nwpwo.tenant_on_site_position_8;
+current.tenant_on_site_position_9 = nwpwo.nwpwo.tenant_on_site_position_9;
+current.tenant_on_site_position_10 = nwpwo.tenant_on_site_position_10;
+current.tenant_on_site_position_11 = nwpwo.tenant_on_site_position_11;
+current.tenant_on_site_position_12 = nwpwo.tenant_on_site_position_12;
+current.additional_notes_regarding_tenant_info_and_labelling = nwpwo.additional_notes_regarding_tenant_info_and_labelling;
+
+
+//Backup Batteries//
+
+current.record_battery_manufacturer = nwpwo.record_battery_manufacturer;
+current.record_total_number_of_battery_strings_installed = nwpwo.record_total_number_of_battery_strings_installed;
+current.record_battery_ies_serial_number_s = nwpwo.record_battery_ies_serial_number_s;
+current.total_number_of_batteries_per_string = nwpwo.total_number_of_batteries_per_string;
+current.battery_voltage_ratings_v = nwpwo.battery_voltage_ratings_v;
+current.record_battery_capacity_ah = nwpwo.record_battery_capacity_ah;
+current.are_batteries_secured_on_site = nwpwo.are_batteries_secured_on_site;
+current.are_any_alarms_present_on_battery_lcd_screen = nwpwo.are_any_alarms_present_on_battery_lcd_screen;
+current.is_the_anti_theft_enabled = nwpwo.is_the_anti_theft_enabled;
+current.do_all_batteries_charge_and_discharge = nwpwo.do_all_batteries_charge_and_discharge;
+current.additional_notes_regarding_backup_batteries = nwpwo.additional_notes_regarding_backup_batteries;
+
+
+
+//OSS Alarms//
+
+current.oss_alarms_terminated_in_dg_and_rectifier_cabinet = nwpwo.oss_alarms_terminated_in_dg_and_rectifier_cabinet;
+current.oss_alarms_terminated_in_client_bts_cabinet = nwpwo.oss_alarms_terminated_in_client_bts_cabinet;
+current.test_mains_fail = nwpwo.test_mains_fail;
+current.test_dg_fail_to_start_dg_abnormal = nwpwo.test_dg_fail_to_start_dg_abnormal;
+current.test_dg_low_fuel = nwpwo.test_dg_low_fuel;
+current.test_high_temperature_rectifier_shelter = nwpwo.test_high_temperature_rectifier_shelter;
+current.test_rectifier_system_fail = nwpwo.test_rectifier_system_fail;
+current.test_dc_low_voltage = nwpwo.test_dc_low_voltage;
+current.additional_notes_regarding_alarms = nwpwo.additional_notes_regarding_alarms;
+
+
+//Site Earthing//
+
+current.following_the_equipotential_boding_sop_what_was_the_maximum_value_recorded_ohms = nwpwo.following_the_equipotential_boding_sop_what_was_the_maximum_value_recorded_ohms;
+current.following_the_earth_resistance_sop_what_was_the_maximum_value_recorded_ohms = nwpwo.following_the_earth_resistance_sop_what_was_the_maximum_value_recorded_ohms;
+current.all_tower_legs_rooftop_poles_structures = nwpwo.all_tower_legs_rooftop_poles_structures;
+current.fence_all_4_corner_posts = nwpwo.fence_all_4_corner_posts;
+current.generator = nwpwo.generator;
+current.rectifier_cabinet = nwpwo.rectifier_cabinet;
+current.dc_db_and_pole = nwpwo.dc_db_and_pole;
+current.ac_db_and_pole = nwpwo.ac_db_and_pole;
+current.ac_mains_box = nwpwo.ac_mains_box;
+current.cable_trays_rooftops = nwpwo.cable_trays_rooftops;
+current.all_earth_bars_installed = nwpwo.all_earth_bars_installed;
+current.additional_notes_regarding_fire_site_earthing_and_protection = nwpwo.additional_notes_regarding_fire_site_earthing_and_protection;
+
+
+//Fire Safety//
+current.record_the_quantity_of_fire_extinguishers_installed = nwpwo.record_the_quantity_of_fire_extinguishers_installed;
+current.record_make_of_fire_extinguisher_s = nwpwo.record_make_of_fire_extinguisher_s;
+current.record_the_size_capacity_of_the_fire_extinguisher_s_kg = nwpwo.record_the_size_capacity_of_the_fire_extinguisher_s_kg;
+current.record_the_type_of_fire_extinguisher = nwpwo.record_the_type_of_fire_extinguisher;
+current.record_next_service_date = nwpwo.record_next_service_date;
+current.additional_notes_regarding_fire_safety = nwpwo.additional_notes_regarding_fire_safety;
+
+
+//Site Access//
+current.access_road_to_site_type = nwpwo.access_road_to_site_type;
+current.access_road_to_site_condition = nwpwo.access_road_to_site_condition;
+current.standard_car_sedan_non_4x4_vehicle = nwpwo.standard_car_sedan_non_4x4_vehicle;
+current.u_4x4_pickup = nwpwo.u_4x4_pickup;
+current.u_4x4_truck_for_fuel_or_equipment = nwpwo.u_4x4_truck_for_fuel_or_equipment;
+current.additional_notes_regarding_site_access = nwpwo.additional_notes_regarding_site_access;
+
+
+
+//Fence Security//
+current.what_type_of_security_fence_wall_or_other_has_been_installed_on_this_site = nwpwo.what_type_of_security_fence_wall_or_other_has_been_installed_on_this_site;
+current.fence_physical_condition_rust_quality_of_installation_verticality = nwpwo.fence_physical_condition_rust_quality_of_installation_verticality;
+current.fence_structural_security_condition_accessibility = nwpwo.fence_structural_security_condition_accessibility;
+current.razor_coil_flat_wrap_installed_on_top_of_wall_fence = nwpwo.razor_coil_flat_wrap_installed_on_top_of_wall_fence;
+current.what_is_the_quality_of_the_installation_of_this_razor_coil_flat_wrap = nwpwo.what_is_the_quality_of_the_installation_of_this_razor_coil_flat_wrap;
+current.fence_perimeter_length_m = nwpwo.fence_perimeter_length_m;
+current.fence_perimeter_width_m = nwpwo.fence_perimeter_width_m;
+current.site_access_gate_door_locked_with_elock = nwpwo.site_access_gate_door_locked_with_elock;
+current.gate_lock_serial_number = nwpwo.gate_lock_serial_number;
+current.rectifier_cabinet_locked_with_elock = nwpwo.rectifier_cabinet_locked_with_elock;
+current.rectifier_lock_serial_number = nwpwo.rectifier_lock_serial_number;
+current.generator_locked_with_elock = nwpwo.generator_locked_with_elock;
+current.generator_lock_serial_number = nwpwo.generator_lock_serial_number;
+current.have_any_other_standard_locks_been_used_anywhere_on_the_site = nwpwo.have_any_other_standard_locks_been_used_anywhere_on_the_site;
+current.where_are_the_keys_for_the_lock_s = nwpwo.where_are_the_keys_for_the_lock_s;
+current.how_many_security_lights_have_been_installed_on_the_site = nwpwo.how_many_security_lights_have_been_installed_on_the_site;
+current.are_the_security_lights_functional = nwpwo.are_the_security_lights_functional;
+current.additional_notes_regarding_security = nwpwo.additional_notes_regarding_security;
+
+
+
+//Tower Structure//
+current.tower_structure_type = nwpwo.tower_structure_type;
+current.if_tower_number_of_legs_or_number_of_rooftop_poles = nwpwo.if_tower_number_of_legs_or_number_of_rooftop_poles;
+current.structure_material = nwpwo.structure_material;
+current.how_many_navigational_lights_are_installed_at_the_top_of_the_structure = nwpwo.how_many_navigational_lights_are_installed_at_the_top_of_the_structure;
+current.how_many_navigational_lights_are_installed_near_the_middle_of_the_structure = nwpwo.how_many_navigational_lights_are_installed_near_the_middle_of_the_structure;
+current.are_all_the_navigational_lights_functional = nwpwo.are_all_the_navigational_lights_functional;
+current.climbing_ladder_fully_assembled = nwpwo.climbing_ladder_fully_assembled;
+current.what_is_the_make_of_the_fall_arrest_system_installed = nwpwo.what_is_the_make_of_the_fall_arrest_system_installed;
+current.what_is_the_condition_of_the_fall_arrest_system = nwpwo.what_is_the_condition_of_the_fall_arrest_system;
+current.is_there_a_certification_plate_for_the_fall_arrest_system = nwpwo.is_there_a_certification_plate_for_the_fall_arrest_system;
+current.how_many_platforms_are_installed_on_the_structure = nwpwo.how_many_platforms_are_installed_on_the_structure;
+current.how_many_gsm_antenna_brackets_have_been_installed = nwpwo.how_many_gsm_antenna_brackets_have_been_installed;
+current.how_many_mw_brackets_poles_have_been_installed = nwpwo.how_many_mw_brackets_poles_have_been_installed;
+current.additional_notes_regarding_the_tower_structure = nwpwo.additional_notes_regarding_the_tower_structure;
+
+
+
+//Grid Power//
+
+current.is_grid_connected = nwpwo.is_grid_connected;
+current.are_there_fuses_installed_in_the_grid_line = nwpwo.are_there_fuses_installed_in_the_grid_line;
+current.phase_1_voltage_v = nwpwo.phase_1_voltage_v;
+current.phase_2_voltage_v = nwpwo.phase_2_voltage_v;
+current.phase_3_voltage_v = nwpwo.phase_3_voltage_v;
+current.has_a_grid_meter_been_installed = nwpwo.has_a_grid_meter_been_installed;
+current.record_the_capacity_of_the_main_incoming_breaker = nwpwo.record_the_capacity_of_the_main_incoming_breaker;
+current.record_meter_location_on_pole_in_mains_etc = nwpwo.record_meter_location_on_pole_in_mains_etc;
+current.record_meter_number = nwpwo.record_meter_number;
+current.surge_protection_status = nwpwo.surge_protection_status;
+current.as_a_transformer_installed_for_the_grid_connection = nwpwo.as_a_transformer_installed_for_the_grid_connection;
+current.has_an_aps_or_lcu_been_installed = nwpwo.has_an_aps_or_lcu_been_installed;
+current.record_status_of_aps_or_lcu = nwpwo.record_status_of_aps_or_lcu;
+current.additional_notes_regarding_the_grid_connection = nwpwo.additional_notes_regarding_the_grid_connection;
+
+
+
+//Hybrid Solar Site//
+
+current.number_of_solar_arrays_if_any = nwpwo.number_of_solar_arrays_if_any;
+current.number_of_panels_per_array = nwpwo.number_of_panels_per_array;
+current.rating_of_solar_panels_watts = nwpwo.rating_of_solar_panels_watts;
+current.solar_current_from_all_mppts_visible_in_rectifier_controller = nwpwo.solar_current_from_all_mppts_visible_in_rectifier_controller;
+current.record_the_type_of_hybrid_if_any = nwpwo.record_the_type_of_hybrid_if_any;
+current.hybrid_functionality_check_and_test = nwpwo.hybrid_functionality_check_and_test;
+current.additional_notes_regarding_hybrid_solar = nwpwo.additional_notes_regarding_hybrid_solar;
+
+
+
+//Site General//
+
+current.how_many_manholes_have_been_installed_on_this_site = nwpwo.how_many_manholes_have_been_installed_on_this_site;
+current.what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm = nwpwo.what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm;
+current.how_much_are_the_ducts_sticking_out = nwpwo.how_much_are_the_ducts_sticking_out;
+current.what_type_of_ducting_has_been_used = nwpwo.what_type_of_ducting_has_been_used;
+current.have_the_site_signs_been_installed_as_per_the_design_drawings = nwpwo.have_the_site_signs_been_installed_as_per_the_design_drawings;
+current.what_is_the_quality_of_the_finished_civil_concrete_works = nwpwo.what_is_the_quality_of_the_finished_civil_concrete_works;
+current.what_is_the_finish_of_the_concrete_labs_and_tower_stubs = nwpwo.what_is_the_finish_of_the_concrete_labs_and_tower_stubs;
+current.stone_chip_installed_within_site = nwpwo.stone_chip_installed_within_site;
+current.what_type_of_material_has_been_used_under_the_stone_chip = nwpwo.what_type_of_material_has_been_used_under_the_stone_chip;
+current.additional_notes_regarding_the_general_site = nwpwo.additional_notes_regarding_the_general_site;
+
+
+}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>joydeep.adhikary@quintica.com</sys_created_by>
+        <sys_created_on>2024-03-27 07:18:15</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ea08bfbf47cd0250f96d777df26d43d2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Copy NW PWO to HO PWO</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_script_ea08bfbf47cd0250f96d777df26d43d2</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-03-27 09:12:35</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ea08bfbf47cd0250f96d777df26d43d2"/>
+</record_update>

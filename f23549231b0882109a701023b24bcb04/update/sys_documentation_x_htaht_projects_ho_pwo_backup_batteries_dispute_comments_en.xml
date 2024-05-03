@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="backup_batteries_dispute_comments" label="Backup batteries dispute comments" language="en" table="x_htaht_projects_ho_pwo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>backup_batteries_dispute_comments</element>
+            <help/>
+            <hint/>
+            <label>Backup batteries dispute comments</label>
+            <language>en</language>
+            <name>x_htaht_projects_ho_pwo</name>
+            <plural>Backup batteries dispute comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-29 06:35:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f1e2c2a04791c250f96d777df26d431c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Backup batteries dispute comments</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_ho_pwo_backup_batteries_dispute_comments_en</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-29 06:35:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

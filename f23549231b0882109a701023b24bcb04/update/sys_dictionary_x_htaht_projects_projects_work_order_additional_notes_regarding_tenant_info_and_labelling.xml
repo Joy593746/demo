@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="INSERT_OR_UPDATE" element="additional_notes_regarding_tenant_info_and_labelling" table="x_htaht_projects_projects_work_order">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Additional notes regarding tenant info and labelling</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>additional_notes_regarding_tenant_info_and_labelling</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>1000</max_length>
+        <name>x_htaht_projects_projects_work_order</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>jonosburn</sys_created_by>
+        <sys_created_on>2024-03-25 11:20:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>8bddd29347cd8e10f96d777df26d4343</sys_id>
+        <sys_name>Additional notes regarding tenant info and labelling</sys_name>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_dictionary_x_htaht_projects_projects_work_order_additional_notes_regarding_tenant_info_and_labelling</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-03-25 11:20:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+</record_update>

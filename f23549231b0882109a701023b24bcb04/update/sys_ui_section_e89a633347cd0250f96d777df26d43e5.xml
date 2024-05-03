@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Site Access" section_id="e89a633347cd0250f96d777df26d43e5" sys_domain="global" table="x_htaht_projects_ho_pwo" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>9b1d9eb647b1ce10f96d777df26d4311</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <text>&lt;span id="my_annotation"&gt;Can the following vehicles access the site (to minimum short walking distance from entrance): &lt;/span&gt;</text>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>access_road_to_site_type</element>
+            <position>0</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>5f1d9eb647b1ce10f96d777df26d4316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>access_road_to_site_condition</element>
+            <position>1</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>df1d9eb647b1ce10f96d777df26d4316</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>standard_car_sedan_non_4by4_vehicle</element>
+            <position>2</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>531d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9b1d9eb647b1ce10f96d777df26d4311</element>
+            <position>3</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>d31d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_4by4_pickup</element>
+            <position>4</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>571d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_2by4_truck_for_fuel_or_equipment</element>
+            <position>5</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>d71d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_4by4_truck_for_fuel_or_equipment</element>
+            <position>6</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>5b1d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>additional_notes_regarding_site_access</element>
+            <position>7</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>db1d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_access_details</element>
+            <position>8</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>5f1d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>site_access_dispute_comments</element>
+            <position>9</position>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:47:18</sys_created_on>
+            <sys_id>df1d9eb647b1ce10f96d777df26d4317</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Site Access" display_value="Site Access" name="x_htaht_projects_ho_pwo" sys_domain="global" view="Default view">e89a633347cd0250f96d777df26d43e5</sys_ui_section>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:47:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Site Access</caption>
+            <header>false</header>
+            <name>x_htaht_projects_ho_pwo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 06:12:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e89a633347cd0250f96d777df26d43e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_htaht_projects_ho_pwo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_ui_section_e89a633347cd0250f96d777df26d43e5</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 06:12:32</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

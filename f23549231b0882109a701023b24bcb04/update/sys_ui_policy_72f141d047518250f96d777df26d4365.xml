@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <conditions table="x_htaht_projects_projects_work_order">stateIN2,-2^project_type=B2S^EQ<item display_value="2,-2" endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="2,-2"/>
+            <item display_value="B2S" endquery="false" field="project_type" goto="false" newquery="false" operator="=" or="false" value="B2S"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>true</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+	/*
+    var projectType = g_form.getValue('project_type');
+    var excludedFields = [];
+
+    // Define excluded fields based on project type
+
+        excludedFields = ['work_notes', 'project_type', 'additional_notes_regarding_alarms', 'additional_notes_regarding_backup_batteries', 'additional_notes_regarding_fire_safety', 'additional_notes_regarding_fire_site_earthing_and_protection', 'additional_notes_regarding_generator', 'additional_notes_regarding_hybrid_solar', 'additional_notes_regarding_rectifier_system', 'additional_notes_regarding_rms', 'additional_notes_regarding_security', 'additional_notes_regarding_site_access', 'additional_notes_regarding_tenant_info_and_labelling', 'additional_notes_regarding_the_general_site', 'additional_notes_regarding_the_grid_connection', 'additional_notes_regarding_the_tower_structure', 'short_description', 'description', 'assignment_group', 'assigned_to'];
+ 
+    // Set all editable fields to mandatory except for excluded fields
+    var fields = g_form.getEditableFields();
+    for (var i = 0; i < fields.length; i++) {
+        var fieldName = fields[i];
+        if (excludedFields.indexOf(fieldName) === -1) { // Check if the field is not in the excluded list
+            g_form.setMandatory(fieldName, false);
+        }
+    }
+	*/
+}
+]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+    var projectType = g_form.getValue('project_type');
+    var excludedFields = [];
+
+    // Define excluded fields based on project type
+        excludedFields = ['work_notes', 'project_type', 'additional_notes_regarding_alarms', 'additional_notes_regarding_backup_batteries', 'additional_notes_regarding_fire_safety', 'additional_notes_regarding_fire_site_earthing_and_protection', 'additional_notes_regarding_generator', 'additional_notes_regarding_hybrid_solar', 'additional_notes_regarding_rectifier_system', 'additional_notes_regarding_rms', 'additional_notes_regarding_security', 'additional_notes_regarding_site_access', 'additional_notes_regarding_tenant_info_and_labelling', 'additional_notes_regarding_the_general_site', 'additional_notes_regarding_the_grid_connection', 'additional_notes_regarding_the_tower_structure', 'short_description', 'description', 'assignment_group', 'assigned_to', 'project_manager', 'u_site_access_request'];
+
+    // Set all editable fields to mandatory except for excluded fields
+    var fields = g_form.getEditableFields();
+    for (var i = 0; i < fields.length; i++) {
+        var fieldName = fields[i];
+        if (excludedFields.indexOf(fieldName) === -1) { // Check if the field is not in the excluded list
+            g_form.setMandatory(fieldName, true);
+        }
+    }
+}
+]]></script_true>
+        <set_values/>
+        <short_description>HTA - Mandatory Fields (B2S)</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>jonosburn</sys_created_by>
+        <sys_created_on>2024-03-28 07:13:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72f141d047518250f96d777df26d4365</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>HTA - Mandatory Fields (B2S)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_ui_policy_72f141d047518250f96d777df26d4365</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-03-28 08:28:32</sys_updated_on>
+        <table>x_htaht_projects_projects_work_order</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

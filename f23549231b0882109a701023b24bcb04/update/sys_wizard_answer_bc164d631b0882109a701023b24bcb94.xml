@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Projects Work Order</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Projects Work Order</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">dd946a43db02220029bcbc2ffe961980</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>jonosburn</sys_created_by>
+        <sys_created_on>2024-02-05 06:32:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>bc164d631b0882109a701023b24bcb94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projects Work Order</sys_name>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_wizard_answer_bc164d631b0882109a701023b24bcb94</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-02-05 06:32:35</sys_updated_on>
+        <table/>
+        <target_url>x_htaht_projects_projects_work_order.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_htaht_projects.valPWOResolution</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>valPWOResolution</name>
+        <script><![CDATA[var valPWOResolution = Class.create();
+valPWOResolution.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	val : function() {
+		
+		var canIResolve = 'true';
+		var sarsysid = this.getParameter('sysparm_sarsysid');
+		var sar = new GlideRecord('x_quint_sar_site_access_request');
+		sar.addQuery('sys_id', '=', sarsysid);
+		sar.query();
+		if (sar.next())
+			{
+if (sar.state == 1 || sar.state == 11 || sar.state == 12 || sar.state == 13 || sar.state == 14 || sar.state == 15 || sar.state == -5)
+					{
+						canIResolve = 'false';
+					}
+			}
+		
+
+	return canIResolve;
+},
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>jonosburn</sys_created_by>
+        <sys_created_on>2024-02-05 09:04:23</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>d8b8e9ab1b8882109a701023b24bcb3f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>valPWOResolution</sys_name>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_update_name>sys_script_include_d8b8e9ab1b8882109a701023b24bcb3f</sys_update_name>
+        <sys_updated_by>jonosburn</sys_updated_by>
+        <sys_updated_on>2024-02-05 09:08:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

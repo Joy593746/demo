@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="what_is_the_finish_of_the_concrete_labs_and_tower_stubs" label="Quelle est la finition des laboratoires en béton et des moignons des tours ?" language="fr" table="x_htaht_projects_projects_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>what_is_the_finish_of_the_concrete_labs_and_tower_stubs</element>
+            <help/>
+            <hint/>
+            <label>Quelle est la finition des laboratoires en béton et des moignons des tours ?</label>
+            <language>fr</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <plural>Quelle est la finition des laboratoires en béton et des moignons des tours ?</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>joydeep.adhikary@quintica.com</sys_created_by>
+            <sys_created_on>2024-04-30 12:09:40</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>2b52804f1bb982509a701023b24bcbd8</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Quelle est la finition des laboratoires en béton et des moignons des tours ?</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_what_is_the_finish_of_the_concrete_labs_and_tower_stubs_fr</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-05-01 05:22:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

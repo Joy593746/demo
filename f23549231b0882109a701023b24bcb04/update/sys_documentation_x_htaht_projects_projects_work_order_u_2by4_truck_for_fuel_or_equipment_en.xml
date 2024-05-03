@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_2by4_truck_for_fuel_or_equipment" label="2x4 Truck - for fuel or equipment" language="en" table="x_htaht_projects_projects_work_order">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_2by4_truck_for_fuel_or_equipment</element>
+            <help/>
+            <hint/>
+            <label>2x4 Truck - for fuel or equipment</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <plural>2x4 Truck - for fuel or equipments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-04-30 04:41:24</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>34cbd27647b1ce10f96d777df26d4302</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>2x4 Truck - for fuel or equipment</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_u_2by4_truck_for_fuel_or_equipment_en</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-04-30 04:46:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

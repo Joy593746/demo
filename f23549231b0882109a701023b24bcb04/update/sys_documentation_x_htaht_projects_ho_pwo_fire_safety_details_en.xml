@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="fire_safety_details" label="Are the fire safety details provided correct?" language="en" table="x_htaht_projects_ho_pwo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fire_safety_details</element>
+            <help/>
+            <hint/>
+            <label>Are the fire safety details provided correct?</label>
+            <language>en</language>
+            <name>x_htaht_projects_ho_pwo</name>
+            <plural>Are the fire safety details provided correct?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 12:12:56</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7b0d704c47d14250f96d777df26d4377</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Are the fire safety details provided correct?</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_documentation_x_htaht_projects_ho_pwo_fire_safety_details_en</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 12:16:45</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

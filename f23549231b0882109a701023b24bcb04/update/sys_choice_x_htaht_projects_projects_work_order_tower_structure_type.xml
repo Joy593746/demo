@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tower_structure_type" table="x_htaht_projects_projects_work_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tower_structure_type</element>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8f56d3b3474d0250f96d777df26d435a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tower_structure_type</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_choice_x_htaht_projects_projects_work_order_tower_structure_type</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Greenfield Tower</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0b56d3b3474d0250f96d777df26d435a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Greenfield Tower</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rooftop Tower</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cb565b37474d0250f96d777df26d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Rooftop Tower</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stayed Mast</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87565b37474d0250f96d777df26d43ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Stayed Mast</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monopole</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43565b37474d0250f96d777df26d43b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Monopole</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Camouflaged Structure</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0f565b37474d0250f96d777df26d43b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Camouflaged Structure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rooftop Pole/s</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7565b37474d0250f96d777df26d43bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Rooftop Pole/s</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Structure</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83565b37474d0250f96d777df26d43c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>No Structure</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tower_structure_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:44:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f565b37474d0250f96d777df26d43c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:44:14</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
