@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="70164d631b0882109a701023b24bcb92" extends="task" label="Projects Work Order" max_length="40" name="x_htaht_projects_projects_work_order" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Access road to site Condition:" max_length="40" name="access_road_to_site_condition" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="Poor"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="Fair"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Access road to site Type:" max_length="40" name="access_road_to_site_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Gravel" sequence="0" value="Gravel"/>
+                <element inactive_on_update="false" label="Sand" sequence="1" value="Sand"/>
+                <element inactive_on_update="false" label="Tar" sequence="2" value="Tar"/>
+                <element inactive_on_update="false" label="Concrete" sequence="3" value="Concrete"/>
+                <element inactive_on_update="false" label="No road" sequence="4" value="No road"/>
+                <element inactive_on_update="false" label="Other" sequence="5" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="AC DB and pole" max_length="40" name="ac_db_and_pole" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="AC Mains Box" max_length="40" name="ac_mains_box" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding alarms" max_length="1000" name="additional_notes_regarding_alarms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding backup batteries" max_length="1000" name="additional_notes_regarding_backup_batteries" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding fire safety." max_length="1000" name="additional_notes_regarding_fire_safety" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding fire site earthing and protection" max_length="1000" name="additional_notes_regarding_fire_site_earthing_and_protection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding generator" max_length="1000" name="additional_notes_regarding_generator" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding hybrid / solar" max_length="1000" name="additional_notes_regarding_hybrid_solar" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding rectifier system" max_length="1000" name="additional_notes_regarding_rectifier_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding RMS" max_length="1000" name="additional_notes_regarding_rms" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding security" max_length="1000" name="additional_notes_regarding_security" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding site access." max_length="1000" name="additional_notes_regarding_site_access" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding tenant info and labelling" max_length="1000" name="additional_notes_regarding_tenant_info_and_labelling" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding the general site" max_length="1000" name="additional_notes_regarding_the_general_site" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding the grid connection" max_length="1000" name="additional_notes_regarding_the_grid_connection" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Additional notes regarding the tower / structure" max_length="1000" name="additional_notes_regarding_the_tower_structure" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Advise status of DG and DG installation and wiring." max_length="40" name="advise_status_of_dg_and_dg_installation_and_wiring" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="Poor"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="Fair"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="All earth bars installed" max_length="40" name="all_earth_bars_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="All tower legs / rooftop poles / structures" max_length="40" name="all_tower_legs_rooftop_poles_structures" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Amount of fuel added" max_length="40" name="amount_of_fuel_added" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are all the navigational lights functional?" max_length="40" name="are_all_the_navigational_lights_functional" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are any alarms present on battery LCD screen?" max_length="40" name="are_any_alarms_present_on_battery_lcd_screen" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are batteries secured on site?" max_length="40" name="are_batteries_secured_on_site" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are there fuses installed in the grid line?" max_length="40" name="are_there_fuses_installed_in_the_grid_line" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Installed and working" sequence="0" value="Installed and working"/>
+                <element inactive_on_update="false" label="Installed and not working" sequence="1" value="Installed and not working"/>
+                <element inactive_on_update="false" label="Not installed" sequence="2" value="Not installed"/>
+                <element inactive_on_update="false" label="N/A" sequence="3" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the security lights functional?" max_length="40" name="are_the_security_lights_functional" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Battery voltage ratings (V)" max_length="40" name="battery_voltage_ratings_v" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Cable Trays (rooftops)" max_length="40" name="cable_trays_rooftops" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Cancelled reason" max_length="1000" name="cancelled_reason" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Check Bus Voltage Datapoint visible on RMS device" max_length="40" name="check_bus_voltage_datapoint_visible_on_rms_device" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Check DG Battery Voltage Datapoint visible on RMS device" max_length="40" name="check_dg_battery_voltage_datapoint_visible_on_rms_device" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Check RMS is visible in NOC" max_length="40" name="check_rms_is_visible_in_noc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Climbing ladder fully assembled from the ground to the top of the structure?" max_length="120" name="climbing_ladder_fully_assembled" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Date of fuel delivery" max_length="40" name="date_of_fuel_delivery" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DC DB and pole" max_length="40" name="dc_db_and_pole" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Do all batteries charge and discharge?" max_length="40" name="do_all_batteries_charge_and_discharge" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="DSE displaying correct fuel level" max_length="40" name="dse_displaying_correct_fuel_level" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Unknown" sequence="2" value="Unknown"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Engine model No." max_length="40" name="engine_model_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Engine Serial No." max_length="40" name="engine_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fence  - all 4 corner posts" max_length="40" name="fence_all_4_corner_posts" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Fence perimeter: Length (m)" max_length="40" name="fence_perimeter_length_m" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Fence perimeter: Width (m)" max_length="40" name="fence_perimeter_width_m" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fence physical condition (rust, quality of installation, verticality)." max_length="40" name="fence_physical_condition_rust_quality_of_installation_verticality" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="Poor"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="Fair"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Fence structural/security condition (accessibility)" max_length="40" name="fence_structural_security_condition_accessibility" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Easily accessible" sequence="0" value="Easily accessible"/>
+                <element inactive_on_update="false" label="Questionable" sequence="1" value="Questionable"/>
+                <element inactive_on_update="false" label="Secure" sequence="2" value="Secure"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Following the Earth Resistance SOP, what was the maximum value recorded (Ohms)?" max_length="40" name="following_the_earth_resistance_sop_what_was_the_maximum_value_recorded_ohms" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Following the Equipotential boding SOP, what was the maximum value recorded (Ohm" max_length="40" name="following_the_equipotential_boding_sop_what_was_the_maximum_value_recorded_ohms" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Gate Lock Serial Number" max_length="40" name="gate_lock_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator" max_length="40" name="generator" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator controller make" max_length="40" name="generator_controller_make" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Deepsea" sequence="0" value="Deepsea"/>
+                <element inactive_on_update="false" label="SDMO" sequence="1" value="SDMO"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator controller model" max_length="40" name="generator_controller_model" type="string">
+            <choice>
+                <element inactive_on_update="false" label="DSE7320MKI" sequence="0" value="DSE7320MKI"/>
+                <element inactive_on_update="false" label="DSE7320MKII" sequence="1" value="DSE7320MKII"/>
+                <element inactive_on_update="false" label="DSE7420MKII" sequence="2" value="DSE7420MKII"/>
+                <element inactive_on_update="false" label="APM403" sequence="3" value="APM403"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Generator controller serial number" max_length="40" name="generator_controller_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator locked with eLock?" max_length="40" name="generator_locked_with_elock" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Generator Lock Serial Number" max_length="40" name="generator_lock_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator manufacturer" max_length="40" name="generator_manufacturer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Elcos" sequence="0" value="Elcos"/>
+                <element inactive_on_update="false" label="Gen Logic" sequence="1" value="Gen Logic"/>
+                <element inactive_on_update="false" label="PI" sequence="2" value="PI"/>
+                <element inactive_on_update="false" label="Pramac" sequence="3" value="Pramac"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Generator rating (kVA)" max_length="40" name="generator_rating_kva" type="string">
+            <choice>
+                <element inactive_on_update="false" label="20" sequence="0" value="20"/>
+                <element inactive_on_update="false" label="30" sequence="1" value="30"/>
+                <element inactive_on_update="false" label="40" sequence="2" value="40"/>
+                <element inactive_on_update="false" label="45" sequence="3" value="45"/>
+                <element inactive_on_update="false" label="50" sequence="4" value="50"/>
+                <element inactive_on_update="false" label="60" sequence="5" value="60"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Genset Serial No." max_length="40" name="genset_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has an APS or LCU been installed?" max_length="40" name="has_an_aps_or_lcu_been_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has a grid meter been installed?" max_length="40" name="has_a_grid_meter_been_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Has DG been earthed to main site earth?" max_length="40" name="has_dg_been_earthed_to_main_site_earth" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have any other standard locks been used anywhere on the site?" max_length="40" name="have_any_other_standard_locks_been_used_anywhere_on_the_site" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Have the site signs been installed as per the design drawings?" max_length="40" name="have_the_site_signs_been_installed_as_per_the_design_drawings" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Highlight any special conditions or restrictions for this site (e.g. access betw" max_length="1000" name="highlight_any_special_conditions_or_restrictions_for_this_site_e_g_access_betwee" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How many GSM antenna brackets have been installed?" max_length="40" name="how_many_gsm_antenna_brackets_have_been_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="How many manholes have been installed on this site?" max_length="40" name="how_many_manholes_have_been_installed_on_this_site" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How many MW brackets poles have been installed?" max_length="40" name="how_many_mw_brackets_poles_have_been_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How many navigational lights are installed at the top of the structure?" max_length="40" name="how_many_navigational_lights_are_installed_at_the_top_of_the_structure" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How many navigational lights are installed near the middle of the structure?" max_length="40" name="how_many_navigational_lights_are_installed_near_the_middle_of_the_structure" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="How many platforms are installed on the structure?" max_length="40" name="how_many_platforms_are_installed_on_the_structure" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="How many security lights have been installed on the site?" max_length="40" name="how_many_security_lights_have_been_installed_on_the_site" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="How much are the ducts sticking out above the finished concrete level (in mm)" max_length="40" name="how_much_are_the_ducts_sticking_out" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="How much are the ducts sticking out above the finished concrete level (on averag" max_length="40" name="how_much_are_the_ducts_sticking_out_above_the_finished_concrete_level_on_average" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Hybrid functionality. Check and test" max_length="40" name="hybrid_functionality_check_and_test" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Number of legs or number of rooftop poles" max_length="40" name="if_tower_number_of_legs_or_number_of_rooftop_poles" type="string">
+            <choice>
+                <element inactive_on_update="false" label="0" sequence="0" value="0"/>
+                <element inactive_on_update="false" label="1" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is grid connected?" max_length="40" name="is_grid_connected" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Prepaid" sequence="0" value="Prepaid"/>
+                <element inactive_on_update="false" label="Post-paid" sequence="1" value="Post-paid"/>
+                <element inactive_on_update="false" label="Landlord Power" sequence="2" value="Landlord Power"/>
+                <element inactive_on_update="false" label="No grid" sequence="3" value="No grid"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is there a certification plate for the fall arrest system?" max_length="40" name="is_there_a_certification_plate_for_the_fall_arrest_system" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Is the anti-theft enabled?" max_length="40" name="is_the_anti_theft_enabled" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Number of panels per array" max_length="40" name="number_of_panels_per_array" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Number of solar arrays (if any)" max_length="40" name="number_of_solar_arrays_if_any" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OSS alarms terminated in client BTS cabinet" max_length="40" name="oss_alarms_terminated_in_client_bts_cabinet" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="OSS alarms terminated in DG and Rectifier cabinet" max_length="40" name="oss_alarms_terminated_in_dg_and_rectifier_cabinet" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other battery manufacturer" max_length="40" name="other_battery_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other fall arrest system" max_length="100" name="other_fall_arrest_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Generator controller make" max_length="40" name="other_generator_controller_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Generator controller model" max_length="40" name="other_generator_controller_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Generator manufacturer" max_length="40" name="other_generator_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Generator rating (kVA)" max_length="40" name="other_generator_rating_kva" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other meter location" max_length="40" name="other_meter_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Rectifier Model" max_length="40" name="other_record_rectifier_model" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Rectifier manufacturer" max_length="40" name="other_rectifier_manufacturer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other RMS Make" max_length="40" name="other_rms_make" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Structure Material" max_length="40" name="other_structure_material" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Tower / Structure Type" max_length="40" name="other_tower_structure_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type of ducting" max_length="40" name="other_type_of_ducting" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type of finish" max_length="40" name="other_type_of_finish" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type of hybrid" max_length="40" name="other_type_of_hybrid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type of material" max_length="40" name="other_type_of_material" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other type of security fence" max_length="40" name="other_type_of_security_fence" type="string"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Phase 1 Voltage (V)" max_length="15" name="phase_1_voltage_v" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Phase 2 Voltage (V)" max_length="15" name="phase_2_voltage_v" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Phase 3 Voltage (V)" max_length="15" name="phase_3_voltage_v" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Project Manager" max_length="32" name="project_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Project type" mandatory="true" max_length="40" name="project_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Active Upgrade" sequence="0" value="Active Upgrade"/>
+                <element inactive_on_update="false" label="B2S" sequence="1" value="B2S"/>
+                <element inactive_on_update="false" label="Colocation" sequence="2" value="Colocation"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Rating of solar panels (Watts)" max_length="40" name="rating_of_solar_panels_watts" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Razor coil / flat wrap installed on top of wall / fence?" max_length="40" name="razor_coil_flat_wrap_installed_on_top_of_wall_fence" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record battery capacity (Ah)" max_length="40" name="record_battery_capacity_ah" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Record battery (ies) Serial number (s)" max_length="40" name="record_battery_ies_serial_number_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record battery manufacturer" max_length="40" name="record_battery_manufacturer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Leoch Lithium" sequence="0" value="Leoch Lithium"/>
+                <element inactive_on_update="false" label="Leoch Lead" sequence="1" value="Leoch Lead"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record current fuel level at time of handover (litres)" max_length="40" name="record_current_fuel_level_at_time_of_handover_litres" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Record make of fire extinguisher/s" max_length="40" name="record_make_of_fire_extinguisher_s" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record meter location (on pole, in mains etc)" max_length="40" name="record_meter_location_on_pole_in_mains_etc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="On pole" sequence="0" value="On pole"/>
+                <element inactive_on_update="false" label="In main AC incoming box" sequence="1" value="In main AC incoming box"/>
+                <element inactive_on_update="false" label="On wall" sequence="2" value="On wall"/>
+                <element inactive_on_update="false" label="In existing landlord box" sequence="3" value="In existing landlord box"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record meter number" max_length="40" name="record_meter_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Record next service date" max_length="40" name="record_next_service_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record number of Modules working" max_length="40" name="record_number_of_modules_working" type="string">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+                <element inactive_on_update="false" label="11" sequence="10" value="11"/>
+                <element inactive_on_update="false" label="12" sequence="11" value="12"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record number of tenants on site" max_length="40" name="record_number_of_tenants_on_site" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record Rectifier Model" max_length="40" name="record_rectifier_model" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Rev12" sequence="0" value="Rev12"/>
+                <element inactive_on_update="false" label="Other" sequence="1" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record Rectifier Serial No." max_length="40" name="record_rectifier_serial_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Record Rectifier site load Total DC (Amps)" max_length="40" name="record_rectifier_site_load_total_dc_amps" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,scale=1" label="Record Rectifier systems voltage (DC V)" max_length="40" name="record_rectifier_systems_voltage_dc_v" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record RMS Make" max_length="40" name="record_rms_make" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Invendis" sequence="0" value="Invendis"/>
+                <element inactive_on_update="false" label="None" sequence="1" value="None"/>
+                <element inactive_on_update="false" label="Saltec" sequence="2" value="Saltec"/>
+                <element inactive_on_update="false" label="Teltonika" sequence="3" value="Teltonika"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record status of APS or LCU" max_length="40" name="record_status_of_aps_or_lcu" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Installed and working" sequence="0" value="Installed and working"/>
+                <element inactive_on_update="false" label="Installed and not working" sequence="1" value="Installed and not working"/>
+                <element inactive_on_update="false" label="Not installed" sequence="2" value="Not installed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Record tenant names" max_length="40" name="record_tenant_names" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Record the capacity of the main incoming breaker" max_length="40" name="record_the_capacity_of_the_main_incoming_breaker" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Record the generator Run Hours" max_length="40" name="record_the_generator_run_hours" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Record the quantity of fire extinguishers installed." max_length="40" name="record_the_quantity_of_fire_extinguishers_installed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Record the size/capacity of the fire extinguisher/s (kg)" max_length="40" name="record_the_size_capacity_of_the_fire_extinguisher_s_kg" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record the Type of fire extinguisher" max_length="40" name="record_the_type_of_fire_extinguisher" type="string">
+            <choice>
+                <element inactive_on_update="false" label="CO2" sequence="0" value="CO2"/>
+                <element inactive_on_update="false" label="Foam" sequence="1" value="Foam"/>
+                <element inactive_on_update="false" label="Wet Chemical" sequence="2" value="Wet Chemical"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Record the Type of Hybrid (if any)." max_length="40" name="record_the_type_of_hybrid_if_any" type="string">
+            <choice>
+                <element inactive_on_update="false" label="High load solar" sequence="0" value="High load solar"/>
+                <element inactive_on_update="false" label="Low load solar" sequence="1" value="Low load solar"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,scale=0" label="Record total number of battery strings installed" max_length="40" name="record_total_number_of_battery_strings_installed" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rectifier Cabinet" max_length="40" name="rectifier_cabinet" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rectifier Cabinet locked with eLock?" max_length="40" name="rectifier_cabinet_locked_with_elock" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Rectifier Lock Serial Number" max_length="40" name="rectifier_lock_serial_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rectifier manufacturer" max_length="40" name="rectifier_manufacturer" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Delta" sequence="0" value="Delta"/>
+                <element inactive_on_update="false" label="Huawei" sequence="1" value="Huawei"/>
+                <element inactive_on_update="false" label="Eltek" sequence="2" value="Eltek"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RMS Connected to Deepsea and values visible in NOC?" max_length="40" name="rms_connected_to_deepsea_and_values_visible_in_noc" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="RMS SIM Card MNO" max_length="40" name="rms_sim_card_mno" type="string">
+            <choice>
+                <element inactive_on_update="false" label="MNOs based per OpCo" sequence="0" value="MNOs based per OpCo"/>
+                <element inactive_on_update="false" label="N/A" sequence="1" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Site" mandatory="true" max_length="32" name="site" reference="x_quint_sid_geographiclocation" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Site access gate/door locked with eLock?" max_length="40" name="site_access_gate_door_locked_with_elock" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Site Location" max_length="100" name="site_location" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Solar current from all MPPTs visible in rectifier controller" max_length="40" name="solar_current_from_all_mppts_visible_in_rectifier_controller" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Specify Rectifier configuration version" max_length="40" name="specify_rectifier_configuration_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify Rectifier firmware version" max_length="40" name="specify_rectifier_firmware_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify RMS configuration version" max_length="40" name="specify_rms_configuration_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Specify RMS firmware version" max_length="40" name="specify_rms_firmware_version" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Standard car/sedan/non 4x4 vehicle" max_length="40" name="standard_car_sedan_non_4by4_vehicle" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Confirm that all steel components have been bonded to the main site earthing sys" max_length="40" name="steel_components_have_been_bonded" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stone chip installed within site?" max_length="40" name="stone_chip_installed_within_site" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Structure material" max_length="40" name="structure_material" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Angle Iron" sequence="0" value="Angle Iron"/>
+                <element inactive_on_update="false" label="Tubular" sequence="1" value="Tubular"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Surge protection status" max_length="40" name="surge_protection_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Installed and working" sequence="0" value="Installed and working"/>
+                <element inactive_on_update="false" label="Installed and not working" sequence="1" value="Installed and not working"/>
+                <element inactive_on_update="false" label="Not installed" sequence="2" value="Not installed"/>
+                <element inactive_on_update="false" label="N/A" sequence="3" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tenant currents visible in rectifier controller" max_length="40" name="tenant_currents_visible_in_rectifier_controller" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tenant distribution box labelled" max_length="40" name="tenant_distribution_box_labelled" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_domain" choice_table="u_helios_tenants" label="Tenant domain" max_length="40" name="tenant_domain" read_only="true" type="string">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tenant load cables labelled at rectifier cabinet" max_length="40" name="tenant_load_cables_labelled_at_rectifier_cabinet" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tenant load connection point labelled at rectifier cabinet" max_length="40" name="tenant_load_connection_point_labelled_at_rectifier_cabinet" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tenant monitoring kit properly installed" max_length="40" name="tenant_monitoring_kit_properly_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 1" max_length="40" name="tenant_on_site_position_1" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 10" max_length="40" name="tenant_on_site_position_10" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 11" max_length="40" name="tenant_on_site_position_11" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 12" max_length="40" name="tenant_on_site_position_12" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 2" max_length="40" name="tenant_on_site_position_2" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 3" max_length="40" name="tenant_on_site_position_3" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 4" max_length="40" name="tenant_on_site_position_4" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 5" max_length="40" name="tenant_on_site_position_5" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 6" max_length="40" name="tenant_on_site_position_6" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 7" max_length="40" name="tenant_on_site_position_7" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 8" max_length="40" name="tenant_on_site_position_8" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" choice_field="u_name" choice_table="u_helios_tenants" dependent="tenant_domain" dependent_on_field="tenant_domain" label="Tenant on Site - Position 9" max_length="40" name="tenant_on_site_position_9" type="string" use_dependent_field="true">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test DC Low Voltage" max_length="40" name="test_dc_low_voltage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test DG Fail to Start / DG Abnormal" max_length="40" name="test_dg_fail_to_start_dg_abnormal" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test DG Low Fuel" max_length="40" name="test_dg_low_fuel" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test High Temperature (rectifier/shelter)" max_length="40" name="test_high_temperature_rectifier_shelter" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Mains fail" max_length="40" name="test_mains_fail" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Test Rectifier System Fail" max_length="40" name="test_rectifier_system_fail" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Okay" sequence="0" value="Okay"/>
+                <element inactive_on_update="false" label="Not Okay" sequence="1" value="Not Okay"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Total number of batteries per String" max_length="40" name="total_number_of_batteries_per_string" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tower ladder and tower earthing" max_length="40" name="tower_ladder_and_tower_earthing" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Tower / structure type" max_length="40" name="tower_structure_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Greenfield Tower" sequence="0" value="Greenfield Tower"/>
+                <element inactive_on_update="false" label="Rooftop Tower" sequence="1" value="Rooftop Tower"/>
+                <element inactive_on_update="false" label="Stayed Mast" sequence="2" value="Stayed Mast"/>
+                <element inactive_on_update="false" label="Monopole" sequence="3" value="Monopole"/>
+                <element inactive_on_update="false" label="Camouflaged Structure" sequence="4" value="Camouflaged Structure"/>
+                <element inactive_on_update="false" label="Rooftop Pole/s" sequence="5" value="Rooftop Pole/s"/>
+                <element inactive_on_update="false" label="No Structure" sequence="6" value="No Structure"/>
+                <element inactive_on_update="false" label="Other" sequence="7" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Using the site design drawings and the earthing drawing specifically, confirm th" max_length="40" name="using_the_site_design_drawings_and_the_earthing_drawing_specifically_confirm_tha" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="2x4 Truck - for fuel or equipment" max_length="40" name="u_2by4_truck_for_fuel_or_equipment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="4x4 Pickup" max_length="40" name="u_4by4_pickup" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="4x4 Truck - for fuel or equipment" max_length="40" name="u_4by4_truck_for_fuel_or_equipment" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Was a Transformer installed for the grid connection?" max_length="40" name="was_a_transformer_installed_for_the_grid_connection" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the condition of the fall arrest system?" max_length="40" name="what_is_the_condition_of_the_fall_arrest_system" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="Poor"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="Fair"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="What is the estimated capacity of the fuel tank (litres)" max_length="40" name="what_is_the_estimated_capacity_of_the_fuel_tank_litres" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the finish of the concrete labs and tower stubs?" max_length="40" name="what_is_the_finish_of_the_concrete_labs_and_tower_stubs" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Steel Float" sequence="0" value="Steel Float"/>
+                <element inactive_on_update="false" label="Wood Float" sequence="1" value="Wood Float"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="What is the internal diameter of the ducting used on this site (mm)?" max_length="40" name="what_is_the_internal_diameter_of_the_ducting_used_on_this_site_mm" type="float"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the make of the fall arrest system installed?" max_length="40" name="what_is_the_make_of_the_fall_arrest_system_installed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Gravity" sequence="0" value="Gravity"/>
+                <element inactive_on_update="false" label="Sagemcom" sequence="1" value="Sagemcom"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the quality of the finished civil / concrete works?" max_length="40" name="what_is_the_quality_of_the_finished_civil_concrete_works" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Poor" sequence="0" value="Poor"/>
+                <element inactive_on_update="false" label="Fair" sequence="1" value="Fair"/>
+                <element inactive_on_update="false" label="Good" sequence="2" value="Good"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What is the quality of the installation of this razor coil / flat wrap?" max_length="40" name="what_is_the_quality_of_the_installation_of_this_razor_coil_flat_wrap" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="N/A" sequence="2" value="N/A"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What type of ducting has been used?" max_length="40" name="what_type_of_ducting_has_been_used" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Water pipe" sequence="0" value="Water pipe"/>
+                <element inactive_on_update="false" label="HDPE pipe" sequence="1" value="HDPE pipe"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What type of material has been used under the stone chip?" max_length="40" name="what_type_of_material_has_been_used_under_the_stone_chip" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Plastic Sheeting" sequence="0" value="Plastic Sheeting"/>
+                <element inactive_on_update="false" label="Woven Fabric" sequence="1" value="Woven Fabric"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="What type of security fence / wall or other has been installed on this site?" max_length="40" name="what_type_of_security_fence_wall_or_other_has_been_installed_on_this_site" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Block Wall" sequence="0" value="Block Wall"/>
+                <element inactive_on_update="false" label="Brick" sequence="1" value="Brick"/>
+                <element inactive_on_update="false" label="Mesh" sequence="2" value="Mesh"/>
+                <element inactive_on_update="false" label="None" sequence="3" value="None"/>
+                <element inactive_on_update="false" label="Palisade" sequence="4" value="Palisade"/>
+                <element inactive_on_update="false" label="Rooftop" sequence="5" value="Rooftop"/>
+                <element inactive_on_update="false" label="Other" sequence="6" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Where are the keys for the lock/s?" max_length="40" name="where_are_the_keys_for_the_lock_s" type="string"/>
+    </element>
+</database>

@@ -13,20 +13,20 @@
         <label>NW PWO</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_htaht_projects_nw_pwo</name>
-        <number_ref display_value="">774aabff478d0250f96d777df26d43aa</number_ref>
+        <number_ref display_value="NWPWO">774aabff478d0250f96d777df26d43aa</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="">70164d631b0882109a701023b24bcb92</super_class>
+        <super_class display_value="Projects Work Order" name="x_htaht_projects_projects_work_order">70164d631b0882109a701023b24bcb92</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>jonosburn</sys_created_by>
         <sys_created_on>2024-03-27 06:11:23</sys_created_on>
         <sys_id>5f4681a31b0882109a701023b24bcb4a</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>NW PWO</sys_name>
-        <sys_package display_value="">f23549231b0882109a701023b24bcb04</sys_package>
+        <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
         <sys_policy/>
-        <sys_scope display_value="">f23549231b0882109a701023b24bcb04</sys_scope>
+        <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
         <sys_update_name>sys_db_object_5f4681a31b0882109a701023b24bcb4a</sys_update_name>
         <sys_updated_by>jonosburn</sys_updated_by>
         <sys_updated_on>2024-04-02 08:55:17</sys_updated_on>

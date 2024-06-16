@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5d7645a31b0882109a701023b24bcb4e" extends="x_htaht_projects_projects_work_order" label="HO PWO" max_length="40" name="x_htaht_projects_ho_pwo" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Backup batteries dispute comments" max_length="1000" name="backup_batteries_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the backup details provided correct?" max_length="40" name="backup_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the fence security details provided correct?" max_length="40" name="fence_security_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Fence / Security dispute comments" max_length="1000" name="fence_security_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the fire safety details provided correct?" max_length="40" name="fire_safety_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Fire safety dispute comments" max_length="40" name="fire_safety_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the generator details provided correct?" max_length="40" name="generator_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Generator dispute comments" max_length="1000" name="generator_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the grid power details provided correct?" max_length="40" name="grid_power_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Grid power supply dispute comments" max_length="1000" name="grid_power_supply_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the hybrid solar details provided correct?" max_length="40" name="hybrid_solar_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hybrid / Solar Site dispute comments" max_length="1000" name="hybrid_solar_site_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="NWPWO Reference" max_length="32" name="nwpwo_reference" reference="x_htaht_projects_nw_pwo" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="OSS alarming dispute comments" max_length="1000" name="oss_alarming_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the OSS details provided correct?" max_length="40" name="oss_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the rectifier details provided correct?" max_length="40" name="rectifier_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Rectifier dispute comments" max_length="1000" name="rectifier_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the RMS details provided correct?" max_length="40" name="rms_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="RMS dispute comments" max_length="1000" name="rms_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the site access details provided correct?" max_length="40" name="site_access_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Site access dispute comments" max_length="1000" name="site_access_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the site earthing details provided correct?" max_length="40" name="site_earthing_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Site earthing dispute comments" max_length="1000" name="site_earthing_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the site general details provided correct?" max_length="40" name="site_general_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Site general dispute comments" max_length="1000" name="site_general_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the tenant details provided correct?" max_length="40" name="tenant_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tenant dispute comments" max_length="1000" name="tenant_dispute_comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Are the tower details provided correct?" max_length="40" name="tower_details" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Tower / Structure dispute comments" max_length="1000" name="tower_structure_dispute_comments" type="string"/>
+    </element>
+</database>

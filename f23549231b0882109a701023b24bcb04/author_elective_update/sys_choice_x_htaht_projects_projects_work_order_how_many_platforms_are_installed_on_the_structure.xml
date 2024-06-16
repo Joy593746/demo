@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="how_many_platforms_are_installed_on_the_structure" table="x_htaht_projects_projects_work_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>how_many_platforms_are_installed_on_the_structure</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_choice_x_htaht_projects_projects_work_order_how_many_platforms_are_installed_on_the_structure</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>0</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>how_many_platforms_are_installed_on_the_structure</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>6</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-27 04:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-27 04:49:11</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

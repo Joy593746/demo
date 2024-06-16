@@ -11,13 +11,10 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>jonosburn</sys_created_by>
             <sys_created_on>2024-04-01 05:08:10</sys_created_on>
-            <sys_customer_update>false</sys_customer_update>
-            <sys_id>52cb096d47918650f96d777df26d436c</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_name>Confirm that all steel components have been bonded to the main site earthing sys</sys_name>
             <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
             <sys_update_name>sys_documentation_x_htaht_projects_projects_work_order_steel_components_have_been_bonded_en</sys_update_name>
             <sys_updated_by>jonosburn</sys_updated_by>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="5f4681a31b0882109a701023b24bcb4a" extends="x_htaht_projects_projects_work_order" label="NW PWO" max_length="40" name="x_htaht_projects_nw_pwo" type="collection"/>
+</database>

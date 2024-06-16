@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="oss_alarms_terminated_in_dg_and_rectifier_cabinet" table="x_htaht_projects_projects_work_order" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>oss_alarms_terminated_in_dg_and_rectifier_cabinet</element>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-26 11:52:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>oss_alarms_terminated_in_dg_and_rectifier_cabinet</sys_name>
+            <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
+            <sys_update_name>sys_choice_x_htaht_projects_projects_work_order_oss_alarms_terminated_in_dg_and_rectifier_cabinet</sys_update_name>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-26 11:52:42</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>oss_alarms_terminated_in_dg_and_rectifier_cabinet</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-26 11:52:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-26 11:52:42</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>oss_alarms_terminated_in_dg_and_rectifier_cabinet</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_htaht_projects_projects_work_order</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>jonosburn</sys_created_by>
+            <sys_created_on>2024-03-26 11:52:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jonosburn</sys_updated_by>
+            <sys_updated_on>2024-03-26 11:52:42</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

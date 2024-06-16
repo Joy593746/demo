@@ -3,7 +3,6 @@
         <active>true</active>
         <application display_value="HTA Projects Work Orders">949685231b0882109a701023b24bcb75</application>
         <assessment/>
-        <content_page/>
         <device_type/>
         <filter/>
         <hint/>
@@ -19,12 +18,9 @@
         <query>active=false^EQ</query>
         <report/>
         <roles/>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>jonosburn</sys_created_by>
         <sys_created_on>2024-02-05 06:34:44</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>989609a31b0882109a701023b24bcb48</sys_id>
@@ -33,7 +29,6 @@
         <sys_overrides/>
         <sys_package display_value="Projects" source="x_htaht_projects">f23549231b0882109a701023b24bcb04</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Projects">f23549231b0882109a701023b24bcb04</sys_scope>
         <sys_update_name>sys_app_module_989609a31b0882109a701023b24bcb48</sys_update_name>
         <sys_updated_by>jonosburn</sys_updated_by>
